@@ -22,17 +22,14 @@ Definitions and theorems regarding finite-dimensional vector spaces. Most of the
 
 You should think of a vector space as a set of vectors with added structure/properties. 
 
-<blockquote style="border: 0.9px solid rgb(102, 102, 102); padding: 10px; background-color: rgb(255, 255, 255);">
-  <markdown>
+
   <u>**Linear combination**</u>: If $$a_{1}, \ldots, a_{m}$$ are $$n$$-vectors, and $$\beta_{1}, \ldots, \beta_{m}$$ are scalars, the $$n$$-vector
 
 $$
 \beta_{1} a_{1}+\cdots+\beta_{m} a_{m}
 $$
 
-is called a linear combination of the vectors $$a_{1}, \ldots, a_{n} .$$ The scalars $$\beta_{1}, \ldots, \beta_{m}$$ are called the coefficients of the linear combination.
-  </markdown> 
-</blockquote>
+is called a linear combination of the vectors $$a_{1}, \ldots, a_{n} .$$ The scalars $$\beta_{1}, \ldots, \beta_{m}$$ are called the coefficients of the linear combination. 
 
 
 You should think of linear combinations as adding and scaling vectors to get a different vector. In fact, In other words, a vector in a vector space can be defined by how much it *scales* the unit (basis) vectors (which is shown mathematically through a linear combination). 
