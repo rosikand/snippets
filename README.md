@@ -1,4 +1,4 @@
-# 🔌 Snippets  
+# 🔌 [Snippets](https://rosikand.github.io/snippets/)
 
 Toolbox of short pieces of code. The motivation for constructing this site is so that I can quickly retrieve snippets of code that I use/refer to often. 
 
