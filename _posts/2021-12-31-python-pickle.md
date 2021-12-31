@@ -1,6 +1,7 @@
 ---
 layout: default
 tags: python
+title: Pickling in Python
 ---
 
 # Pickling in Python  
