@@ -4,7 +4,7 @@
   {% assign t = tag | first %}
   {% assign posts = tag | last %}
 
-{{ t }}
+{{ <b>t</b> }}
 <ul>
 {% for post in posts %}
   {% if post.tags contains t %}
@@ -16,6 +16,3 @@
 {% endfor %}
 </ul>
 {% endfor %}
-
-n
-w
