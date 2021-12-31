@@ -1,12 +1,13 @@
 ---
 layout: default
 title: PyTorch training loop (and plot)
-tags: machine learning
+tags: 
+- machine-learning
 ---
 
 # PyTorch training loop (and plot) 
 
-Simple PyTorch training loop code adapted from the [docs](https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html#test-the-network-on-the-test-data). 
+Simple PjyTorch training loop code adapted from the [docs](https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html#test-the-network-on-the-test-data). 
 
 ```python
 EPOCHS = 50  # num epochs 
