@@ -1,8 +1,7 @@
 ---
 layout: default
 title: PyTorch training loop (and plot)
-tags: 
-- machine-learning
+tags: machine-learning
 ---
 
 # PyTorch training loop (and plot) 
