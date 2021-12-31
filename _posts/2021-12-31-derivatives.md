@@ -17,3 +17,6 @@ f: \mathbb{R} \rightarrow \mathbb{R}
 $$
 
 We will study derivatives of scalar-valued functions (i.e. single-variable). 
+
+
+To be continued... 
