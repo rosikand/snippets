@@ -14,6 +14,8 @@ Updated.
 
 Anotha one: 
 
+<!-- Source for the following: https://www.jokecamp.com/blog/listing-jekyll-posts-by-tag/ -->
+
 {% for tag in site.tags %}
   {% assign t = tag | first %}
   {% assign posts = tag | last %}
