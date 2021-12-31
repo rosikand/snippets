@@ -39,43 +39,26 @@ Note: every basis of a vector space $$V$$ has the same length.
 $$
 \operatorname{span}\left(v_{1}, \ldots, v_{m}\right)=\left\{a_{1} v_{1}+\cdots+a_{m} v_{m}: a_{1}, \ldots, a_{m} \in \mathbb{R}\right\}
 $$  
-  </markdown> 
-</blockquote>
 
 In english, a *span* of a vector space is the set all of the possible
 vectors one can obtain from forming linear combinations with the basis vectors of that vector space. 
 
-<blockquote style="border: 0.9px solid rgb(102, 102, 102); padding: 10px; background-color: rgb(255, 255, 255);">
-  <markdown>
-  <u>**Dimension**</u>: A dimension of a vector space $$V$$ is the length of any basis of $$V$$ [1]. 
-  </markdown> 
-</blockquote>
+
+  <u><b>Dimension</b></u>: A dimension of a vector space $$V$$ is the length of any basis of $$V$$ [1]. 
+  
 
 All of this is nicely tied together with the most important definition: 
 
-<blockquote style="border: 0.9px solid rgb(102, 102, 102); padding: 10px; background-color: rgb(255, 255, 255);">
-  <markdown>
-  <u>**Linear independence**</u>: A list $$v_{1}, \ldots, v_{m}$$ of vectors in $$V$$ is called linearly independent if the only choice of $$a_{1}, \ldots, a_{m} \in \mathbf{F}$$ that makes $$a_{1} v_{1}+\cdots+a_{m} v_{m}$$ equal 0 is $$a_{1}=\cdots=a_{m}=0$$. If the list $$v_{1}, \ldots, v_{m}$$ of vectors is not linearly independent, it is considered linearly dependent. 
 
-In other words, a list of vectors is linearly independent if and only if all of them cannot be written as a linear combination of the others.  
-
-  </markdown> 
-</blockquote>
+  <u><b>Linear independence</b></u>: A list $$v_{1}, \ldots, v_{m}$$ of vectors in $$V$$ is called linearly independent if the only choice of $$a_{1}, \ldots, a_{m} \in \mathbf{F}$$ that makes $$a_{1} v_{1}+\cdots+a_{m} v_{m}$$ equal 0 is $$a_{1}=\cdots=a_{m}=0$$. If the list $$v_{1}, \ldots, v_{m}$$ of vectors is not linearly independent, it is considered linearly dependent. In other words, a list of vectors is linearly independent if and only if all of them cannot be written as a linear combination of the others.  
 
 
-<blockquote style="border: 0.9px solid rgb(102, 102, 102); padding: 10px; background-color: rgb(255, 255, 255);">
-  <markdown>
-  <u>**Independence-dimension inequality**</u>: no list of vectors that is larger than the size of the smallest basis (another list of vectors) can be linearly independent (Length of linearly independent list $$\leq$$ length of spanning list).
-
-  </markdown> 
-</blockquote>
+  <u><b>Independence-dimension inequality</b></u>: no list of vectors that is larger than the size of the smallest basis (another list of vectors) can be linearly independent (Length of linearly independent list $$\leq$$ length of spanning list).
 
 
 Linear transformations (maps) are functions that map one vector space to another (where the transformation is linear). The following definition is adapted from [1]. 
 
-<blockquote style="border: 0.9px solid rgb(102, 102, 102); padding: 10px; background-color: rgb(255, 255, 255);">
-  <markdown>
-  <u>**Linear map**</u>: A *linear map* from $$V$$ to $$W$$ is a function $$F: V \rightarrow W$$ where the following properties hold (these properties are what make the transformation linear): 
+  <u><b>Linear map</b></u>: A *linear map* from $$V$$ to $$W$$ is a function $$F: V \rightarrow W$$ where the following properties hold (these properties are what make the transformation linear): 
   - **Additivity**: 
   $$
   F(u+v)=F(u) + F(v) \text { for all } u, v \in V
@@ -84,12 +67,7 @@ Linear transformations (maps) are functions that map one vector space to another
   $$
   F(\lambda v)=\lambda(F v) \text { for all } \lambda \in \mathbb{R} \text { and all } v \in V
   $$
-
-  </markdown> 
-</blockquote>
-
-
-
+  
 
 
 [1] - Sheldon Jay Axler. Linear algebra done right. Vol. 2. Springer, 1997. 
