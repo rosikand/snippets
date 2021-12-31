@@ -6,7 +6,7 @@ tags: machine learning
 
 # PyTorch training loop (and plot) 
 
-Simple PyTorch training loop adapted from 
+Simple PyTorch training loop code adapted from the [docs](https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html#test-the-network-on-the-test-data). 
 
 ```python
 EPOCHS = 50  # num epochs 
@@ -19,8 +19,8 @@ for epoch in range(EPOCHS):  # loop over the dataset (EPOCHS) times
     
     for i, data in enumerate(trainloader, 0):
         # get the inputs; data is a list of [inputs, labels]
-        inputs = data[0].to(device)
-        labels = data[1].to(device)
+        inputs = data[0]  # add .to(device) if training on GPU 
+        labels = data[1]  # add .to(device) if training on GPU 
 
         # zero the parameter gradients
         optimizer.zero_grad()
