@@ -6,9 +6,9 @@ title: LaTeX math commands
 
 # LaTeX math commands 
 
-Some LaTeX math theorem $4x^2$ commands. 
+Some LaTeX math theorem $$4x^2$$ commands. 
 
-Source: http://dec41.user.srcf.net/notes/header.tex
+Source: [http://dec41.user.srcf.net/notes/header.tex](http://dec41.user.srcf.net/notes/header.tex)
 
 ```latex
 \theoremstyle{definition}
