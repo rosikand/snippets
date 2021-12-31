@@ -16,5 +16,3 @@
 {% endfor %}
 </ul>
 {% endfor %}
-e
-3
