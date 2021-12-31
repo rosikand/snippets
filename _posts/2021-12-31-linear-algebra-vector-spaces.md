@@ -8,43 +8,34 @@ tags: mathematics
 
 Definitions and theorems regarding finite-dimensional vector spaces. Most of these are adapted from [1]. See 3Blue1Brown's [video](https://www.youtube.com/watch?v=k7RM-ot2NWY) for intuition. 
  
-<blockquote style="border: 0.9px solid rgb(102, 102, 102); padding: 10px; background-color: rgb(255, 255, 255);">
-  <markdown>
-  <u>**Definition of linear algebra**</u>: Linear algebra is the study of *linear maps* on finite-dimensional *vector spaces* [1].
-  </markdown> 
-</blockquote>
 
-<blockquote style="border: 0.9px solid rgb(102, 102, 102); padding: 10px; background-color: rgb(255, 255, 255);">
-  <markdown>
-  <u>**Vector space**</u>: A vector space is a set $$V$$ which contains vectors in space where the properties of commutativity, associativity, additive identity, additive inverse, multiplicative identity, distributive properties hold (closed under these properties).   
-  </markdown> 
-</blockquote>
+  <u><b>Definition of linear algebra</b></u>: Linear algebra is the study of *linear maps* on finite-dimensional *vector spaces* [1].
+  
+  <u><b>Vector space</b></u>: A vector space is a set $$V$$ which contains vectors in space where the properties of commutativity, associativity, additive identity, additive inverse, multiplicative identity, distributive properties hold (closed under these properties).   
+  
 
 You should think of a vector space as a set of vectors with added structure/properties. 
 
 
-  <u>**Linear combination**</u>: If $$a_{1}, \ldots, a_{m}$$ are $$n$$-vectors, and $$\beta_{1}, \ldots, \beta_{m}$$ are scalars, the $$n$$-vector
+  <u><b>Linear combination</b></u>: If $$a_{1}, \ldots, a_{m}$$ are $$n$$-vectors, and $$\beta_{1}, \ldots, \beta_{m}$$ are scalars, the $$n$$-vector
 
 $$
 \beta_{1} a_{1}+\cdots+\beta_{m} a_{m}
 $$
 
-is called a linear combination of the vectors $$a_{1}, \ldots, a_{n} .$$ The scalars $$\beta_{1}, \ldots, \beta_{m}$$ are called the coefficients of the linear combination. 
+is called a linear combination of the vectors $$a_{1}, \ldots, a_{n}.$$ The scalars $$\beta_{1}, \ldots, \beta_{m}$$ are called the coefficients of the linear combination. 
 
 
 You should think of linear combinations as adding and scaling vectors to get a different vector. In fact, In other words, a vector in a vector space can be defined by how much it *scales* the unit (basis) vectors (which is shown mathematically through a linear combination). 
 
-<blockquote style="border: 0.9px solid rgb(102, 102, 102); padding: 10px; background-color: rgb(255, 255, 255);">
-  <markdown>
-  <u>**Basis**</u>: A basis of a vector space $$V$$ is a set of vectors $$\left\{v_{1}, \ldots, v_{n}\right\}$$ such that each vector $$v \in V$$ can be written uniquely as a linear combination of $$v_{1}, \ldots, v_{n}.$$ 
-  </markdown> 
-</blockquote>
+
+  <u><b>Basis</b></u>: A basis of a vector space $$V$$ is a set of vectors $$\left\{v_{1}, \ldots, v_{n}\right\}$$ such that each vector $$v \in V$$ can be written uniquely as a linear combination of $$v_{1}, \ldots, v_{n}.$$ 
+  
 
 Note: every basis of a vector space $$V$$ has the same length. 
 
-<blockquote style="border: 0.9px solid rgb(102, 102, 102); padding: 10px; background-color: rgb(255, 255, 255);">
-  <markdown>
-  <u>**Span**</u>: The set of all linear combinations of a list of vectors $$v_{1}, \ldots, v_{m}$$ (i.e. vector space) in $$V$$ is called the span of $$v_{1}, \ldots, v_{m}$$, denoted $$\operatorname{span}(\left.v_{1}, \ldots, v_{m}\right).$$ In other words,
+
+  <u><b>Span</b></u>: The set of all linear combinations of a list of vectors $$v_{1}, \ldots, v_{m}$$ (i.e. vector space) in $$V$$ is called the span of $$v_{1}, \ldots, v_{m}$$, denoted $$\operatorname{span}(\left.v_{1}, \ldots, v_{m}\right).$$ In other words,
 $$
 \operatorname{span}\left(v_{1}, \ldots, v_{m}\right)=\left\{a_{1} v_{1}+\cdots+a_{m} v_{m}: a_{1}, \ldots, a_{m} \in \mathbb{R}\right\}
 $$  
