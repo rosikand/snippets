@@ -17,7 +17,7 @@ Definitions and theorems regarding finite-dimensional vector spaces. Most of the
 You should think of a vector space as a set of vectors with added structure/properties. 
 
 
-  <u><b>Linear combination</b></u>: If $$a_{1}, \ldots, a_{m}$$ are $$n$$-vectors, and $$\beta_{1}, \ldots, \beta_{m}$$ are scalars, the $$n$$-vector
+  <u><b><mark>Linear combination</mark></b></u>: If $$a_{1}, \ldots, a_{m}$$ are $$n$$-vectors, and $$\beta_{1}, \ldots, \beta_{m}$$ are scalars, the $$n$$-vector
 
 $$
 \beta_{1} a_{1}+\cdots+\beta_{m} a_{m}
