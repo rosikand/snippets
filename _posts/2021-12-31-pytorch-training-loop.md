@@ -8,6 +8,8 @@ tags: machine-learning
 
 Simple PyTorch training loop code adapted from the [docs](https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html#test-the-network-on-the-test-data). 
 
+Model is defined as `net`. 
+
 ```python
 EPOCHS = 50  # num epochs 
 epoch_num = 0
