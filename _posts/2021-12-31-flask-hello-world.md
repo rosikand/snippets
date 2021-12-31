@@ -4,6 +4,8 @@ title: Flask "Hello, World!" example
 tags: python
 ---
 
+# Flask `"Hello, World!"` example 
+
 Simple Python Flask app that displays the string `"Hello, World!"` in the browser. 
 
 ```python
