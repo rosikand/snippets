@@ -55,3 +55,8 @@ plt.title('Training Loss')
 plt.ylabel('loss')
 plt.show()
 ```
+
+It will plot something that looks like this: 
+
+![image](https://user-images.githubusercontent.com/57341225/147832975-657a43aa-0fe1-4568-9474-df827b73c292.png)
+
