@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Probability: Kolmogorov axioms 
+title: Probability - Kolmogorov axioms 
 tags: mathematics
 ---
 
