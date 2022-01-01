@@ -34,6 +34,7 @@ $$
 Citations: 
 
 [1] - [https://en.wikipedia.org/wiki/Probability_space](https://en.wikipedia.org/wiki/Probability_space)
+
 [2] - Sheldon M Ross. A first course in probability. Pearson, 2014.
 
 Also: CS 109 Course Reader 
