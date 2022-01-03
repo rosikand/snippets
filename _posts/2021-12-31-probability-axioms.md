@@ -6,6 +6,10 @@ tags: mathematics
 
 # Probability: Kolmogorov axioms  
 
+Link: 
+
+- [Axioms](probability/chapteroen.md)
+
 Let $$(\Omega, \mathcal{F}, P)$$ be a probability space and let $$A$$ and $$B$$ be events in the event space $$\mathcal{F}$$ ($$A, B \in \mathcal{F}$$). The probability function, $$P$$, must satisfy the following axioms which we accept as truth. 
 
 ### Axiom 1
