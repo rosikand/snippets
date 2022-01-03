@@ -17,6 +17,18 @@
 </ul>
 {% endfor %}
 
+Collections: 
+
+{% for collection in site.collections %}
+  {% assign name = collection.label %}
+  <b>{{ name }}</b>
+  {% for post in site.[name] %}
+  <ul>
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  </ul>
+  {% endfor %}
+{% endfor %}
+
 
 We define collections here: 
 
