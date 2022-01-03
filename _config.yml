@@ -4,3 +4,9 @@ url: http://rosikand.github.io
 collections:
   mathematics:
     output: true
+  python:
+    output: true
+  miscellaneous:
+    output: true
+  machine_learning:
+    output: true
