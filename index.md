@@ -28,20 +28,3 @@ Collections:
   </ul>
   {% endfor %}
 {% endfor %}
-
-
-We define collections here: 
-
-{% for collection in site.collections %}
-
-  {% assign name = collection.label %}
-  
-    <h1>{{ name }}</h1>
-
-    {% for post in site.[name] %}
-    <ul>
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-    </ul>
-    {% endfor %}
-
-{% endfor %}
