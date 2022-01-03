@@ -1,3 +1,5 @@
 theme: jekyll-theme-minimal
 baseurl: /snippets/ 
 url: http://rosikand.github.io
+collections:
+  - mathematics
