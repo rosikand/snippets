@@ -1,3 +1,8 @@
+---
+layout: default
+title: Data for machine learning 
+---
+
 # Datasets for machine learning 
 
 List of machine learning datasets and competitions. 
