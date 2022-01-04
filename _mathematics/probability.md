@@ -10,6 +10,6 @@ Probability theory is the analysis of random phenomenon. You can think of the th
 
 ### Content 
 
-- [Kolmogorov Axioms](probability/axioms.md)
+- [Kolmogorov Axioms](probability/axioms)
 
  
