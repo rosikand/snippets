@@ -9,6 +9,6 @@ Linear algebra is the study of finite-dimensional vector spaces and the linear t
 
 ### Content 
 
-- [Vector spaces](linear-algebra/vector-spaces.md)
+- [Vector spaces](linear-algebra/vector-spaces)
 
  
