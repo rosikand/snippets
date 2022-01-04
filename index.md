@@ -4,7 +4,7 @@
 <b>{{ name }}</b>
 {% for post in site.[name] %}
 {% if name == 'mathematics' %}
-{% if post.exhibit == 'true' %}
+{% if post.exhibit %}
 <ul>
 <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
 </ul>
