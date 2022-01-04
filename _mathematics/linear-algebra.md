@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Linear Algebra
+exhibit: true
 ---
 
 # Linear Algebra 
