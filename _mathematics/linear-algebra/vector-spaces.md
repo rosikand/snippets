@@ -63,7 +63,7 @@ vectors one can obtain from forming linear combinations with the basis vectors o
   
   A list $$v_{1}, \ldots, v_{m}$$ of vectors in $$V$$ is called linearly independent if the only choice of $$a_{1}, \ldots, a_{m} \in \mathbf{F}$$ that makes $$a_{1} v_{1}+\cdots+a_{m} v_{m}$$ equal 0 is $$a_{1}=\cdots=a_{m}=0$$. If the list $$v_{1}, \ldots, v_{m}$$ of vectors is not linearly independent, it is considered linearly dependent. In other words, a list of vectors is linearly independent if and only if all of them cannot be written as a linear combination of the others.  
   
-Geometrically (in $$\mathbb{R}^2$$, If we take all of the vectors in the list and plot them on the graph, the list is linearly independent if no two vectors sit on the same line. 
+Geometrically (in $$\mathbb{R}^2$$), If we take all of the vectors in the list and plot them on the graph, the list is linearly independent if no two vectors sit on the same line. 
 
 ![image](https://user-images.githubusercontent.com/57341225/147835724-b99be959-9911-4585-9e34-0d5cb98918a2.png)
 
