@@ -6,7 +6,7 @@ collections:
     output: true
   python:
     output: true
-  miscellaneous:
+  miscellany:
     output: true
   machine_learning:
     output: true
