@@ -10,3 +10,5 @@ collections:
     output: true
   machine_learning:
     output: true
+  data_structures_and_algorithms:
+    output: true
