@@ -38,3 +38,24 @@ def sliding_window(arr, window_size):
 ```
 
 Source: [Grokking the Coding Interview course](https://www.educative.io/courses/grokking-the-coding-interview)
+
+
+### Double for-loop over array 
+
+It is also good to know, in general, how to loop over an array using a double for loop such that each element in the array is compared with every other element in the array. 
+
+```python
+arr = [1,2,3]
+
+for i in range(len(arr)):
+    for j in range(i, len(arr)):
+        # do comparison here 
+        print(arr[i], "*", arr[j])
+```
+
+
+
+
+
+
+
