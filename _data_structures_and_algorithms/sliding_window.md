@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Pattern 1: Sliding Window 
+title: Pattern 1 - Sliding Window 
 ---
 
 # Pattern 1: Sliding Window 
