@@ -53,7 +53,15 @@ for i in range(len(arr)):
         print(arr[i], "*", arr[j])
 ```
 
-
+Output: 
+```
+1 * 1
+1 * 2
+1 * 3
+2 * 2
+2 * 3
+3 * 3
+```
 
 
 
