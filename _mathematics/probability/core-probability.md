@@ -109,6 +109,10 @@ Usually, this is the most useful case of DeMorgan's law. Just take the probabili
 
 ### "At least $n$" 
 
+This is a generative process. Say we want to know the probability of at least $$2$$ things occurring when there are $$4$$ total objects. We simply take the sum of exactly $$2$$ things ocurring + prob of $$3$$ things occurring + prob of $$4$$ things occurring. 
+
+Useful to use binomial random variables here. 
+
 ### "Exactly $n$"
 
 
