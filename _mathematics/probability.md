@@ -11,6 +11,10 @@ Probability theory is the analysis of random phenomenon. You can think of the th
 
 ### Content 
 
+- [Combinatorics](probability/combinatorics)
 - [Kolmogorov Axioms](probability/axioms)
+- [Core Probability](probability/core-probability)
+- [Random Variables](probability/random-variables)
+
 
  
