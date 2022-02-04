@@ -115,6 +115,10 @@ Useful to use binomial random variables here.
 
 ### "Exactly $n$"
 
+$$
+\left(\begin{array}{l}t \\ n\end{array}\right) * (\text{prob yes})^{n} \cdot (\text{prob not)^{t-n}
+$$
+
 
 ### General problem solving strategy 
 
