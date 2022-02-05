@@ -113,10 +113,10 @@ This is a generative process. Say we want to know the probability of at least $$
 
 Useful to use binomial random variables here. 
 
-### "Exactly $n$"
+### "Exactly $t$ out of $n$"
 
 $$
-\left(\begin{array}{l}t \\ n\end{array}\right) * (\text{prob yes})^{n} \cdot (\text{prob not)^{t-n}
+\left(\begin{array}{l}n \\ t\end{array}\right) * (\text{prob yes})^{t} \cdot (\text{prob not})^{n-t}  
 $$
 
 
