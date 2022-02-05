@@ -134,6 +134,13 @@ def exact_k(prob, k, n):
 	return result 
 ```
 
+Note that this is just the PMF of a binomial random variable. So the following works: 
+
+```python
+from scipy import stats
+stats.binom.pmf(k, n, prob)
+```
+
 ### General problem solving strategy 
 
 DRAW OUT EVENTS! Explicitly model what an event looks like for the given problem. Use combinatorical rules on sets to model complicated expressions. 
