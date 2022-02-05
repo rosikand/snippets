@@ -116,7 +116,7 @@ Useful to use binomial random variables here.
 ### "Exactly $k$ out of $n$"
 
 $$
-\left(\begin{array}{l}n \\ k\end{array}\right) * (prob \; yes)^{k} \cdot (prob \; not)^{n-k}  
+\left(\begin{array}{l}n \\ k\end{array}\right) * (prob \; yes)^{k} * (prob \; not)^{n-k}  
 $$
 
 Python function: 
