@@ -119,6 +119,20 @@ $$
 \left(\begin{array}{l}n \\ k\end{array}\right) * (prob \; yes)^{k} \cdot (prob \; not)^{n-k}  
 $$
 
+Python function: 
+
+```python
+def exact_k(prob, k, n):
+	# helper function that calculates 
+	# that exactly k of n events occur 
+	# given prob of occurring. 
+
+	binom = math.comb(n, k)
+	prob_yes = math.pow(prob, k)
+	prob_no = math.pow((1 - prob), (n - k))
+	result = binom * prob_yes * prob_no
+	return result 
+```
 
 ### General problem solving strategy 
 
