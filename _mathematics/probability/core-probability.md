@@ -23,9 +23,9 @@ Let $A$ and $B$ be events. Say we want to know the probability of $A$ or $B$ occ
 
 ### Mutually exclusivity 
 
-Two events are considered to be mutual exclusive if, when in the same universe, both cannot occur at the same time. Set notationally, $A \cap B=\emptyset$. 
+Two events are considered to be mutual exclusive if, when in the same universe, both cannot occur at the same time. Set notationally, $$A \cap B=\emptyset$$. 
 
-If $A$ and $B$, then the probability of "or" between them is: 
+If $$A$$ and $$B$$, then the probability of "or" between them is: 
 
 $$
 P(A \text{ or } B) = P(A) + P(B)
@@ -33,10 +33,10 @@ $$
 
 Note: if they are both equally likely, just sum all events and divide by size of the sample space. 
 
-If $A$ and $B$ are *not* mutually exclusive, then we use the inclusion-exclusion formula. 
+If $$A$$ and $$B$$ are *not* mutually exclusive, then we use the inclusion-exclusion formula. 
 
 ### Inclusion-exclusion formula 
-If $A$ and $B$ are two non-mutually exclusive events, then the probability of "or" between them is: 
+If $$A$$ and $$B$$ are two non-mutually exclusive events, then the probability of "or" between them is: 
 
 
 
@@ -54,7 +54,7 @@ If $A$ and $B$ are two non-mutually exclusive events, then the probability of "o
 
 ## Conditional probability and Bayes' Theorem 
 
-Often times, we are concerned with questions of the form: "what is the probability of $A$ given that $B$ has occurred?". 
+Often times, we are concerned with questions of the form: "what is the probability of $$A$$ given that $$B$$ has occurred?". 
 
 ### Chain rule 
 
@@ -68,7 +68,7 @@ $$
 
 ### Bayes' theorem 
 
-Useful when you know $P(B|A)$ but not $P(A|B)$. Answers how we "update" our beliefs on something given new information. 
+Useful when you know $$P(B|A)$$ but not $$P(A|B)$$. Answers how we "update" our beliefs on something given new information. 
 
 
 
@@ -87,7 +87,7 @@ Source: https://web.stanford.edu/class/cs109/lectures/5-Independence/5-Independe
 
 ### DeMorgan's law 
 
-Often times, it is easier to calculate the *inverse* of what we want. For example, given some large number of non-mutually exclusive events, instead of calculating the probability of "or" via the inclusion-exclusion theorem, it could be easier to inverse the problem. That is, make it a probability of "and" question and simply subtract $1$ from the multiplications of the opposite if the events are independent.  
+Often times, it is easier to calculate the *inverse* of what we want. For example, given some large number of non-mutually exclusive events, instead of calculating the probability of "or" via the inclusion-exclusion theorem, it could be easier to inverse the problem. That is, make it a probability of "and" question and simply subtract 1 from the multiplications of the opposite if the events are independent.  
 
 #### "and" to "or"
 Useful when mutliple events are not mutually exclusive (to avoid inclusion-exclusion) 
@@ -107,7 +107,7 @@ $$
 ### "At least one" 
 Usually, this is the most useful case of DeMorgan's law. Just take the probability of "not all" do 1 minus this number. 
 
-### "At least $n$" 
+### "At least $$n$$" 
 
 This is a generative process. Say we want to know the probability of at least $$2$$ things occurring when there are $$4$$ total objects. We simply take the sum of exactly $$2$$ things ocurring + prob of $$3$$ things occurring + prob of $$4$$ things occurring. 
 
@@ -143,7 +143,7 @@ stats.binom.pmf(k, n, prob)
 
 #### Manipulations 
 
-The reason why "exactly" (i.e. Binomial) is very useful is because you can use it to derive other expressions. For example, say we want the probability that something is < 3. We can calculate P(0) + P(1) + P(2) because the events will be mutually exclusive! 
+The reason why "exactly" (i.e. Binomial) is very useful is because you can use it to derive other expressions. For example, say we want the probability that something is $$< 3$$. We can calculate $$P(0) + P(1) + P(2)$$ because the events will be mutually exclusive! 
 
 As another example, say you want "at least $$n$$ successes" but you aren't given an upper bound so the above method is rendered useless. However, with some clever thinking, just manipulate:  
 
