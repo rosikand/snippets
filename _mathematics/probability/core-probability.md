@@ -141,7 +141,15 @@ from scipy import stats
 stats.binom.pmf(k, n, prob)
 ```
 
+#### Manipulations 
+
 The reason why "exactly" (i.e. Binomial) is very useful is because you can use it to derive other expressions. For example, say we want the probability that something is < 3. We can calculate P(0) + P(1) + P(2) because the events will be mutually exclusive! 
+
+As another example, say you want "at least $$n$$ successes" but you aren't given an upper bound so the above method is rendered useless. However, with some clever thinking, just manipulate:  
+
+$$
+P(X>n)=1-P(X \leq n). 
+$$
 
 ### General problem solving strategy 
 
