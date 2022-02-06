@@ -22,6 +22,14 @@ Do this when
 $$
 \begin{aligned}
 &n>20, p<0.05 \; or \;  \\
-&n>100, p<0.1
+&n>100, p<0.1. 
 \end{aligned}
 $$
+
+- Note: the approximation gets worse if $$n$$ is not very large and/or $$p$$ is not very small. 
+- Poisson is also useful even when all the requirements aren't satisfied perfectly (e.g. probability varies slightly for each trial or number of successes isn't exactly independent). 
+
+### Examples of Poissons 
+
+- Number of entries in large hash table (since independence doesn't quite need to be satisfied). 
+- Number of requests in a web server 
