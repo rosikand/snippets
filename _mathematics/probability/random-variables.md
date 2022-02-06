@@ -5,6 +5,12 @@ title: Random variables
 
 # Random Variables 
 
+## Table of discrete distributions 
+
+<img width="746" alt="image" src="https://user-images.githubusercontent.com/57341225/152672412-08f9dde4-5189-456c-886d-82a9d46a2638.png">
+
+[Source](https://web.stanford.edu/class/cs109/lectures/9-Continuous/9-Continuous.pdf).  
+
 ## Poisson 
 
 Use Poisson when you are given a rate and care about the number of occurrences. For example, the number of requests in 5 minutes if the average request per minute is 3. Another use case is to approximate computationally expensive binomial random variables. 
