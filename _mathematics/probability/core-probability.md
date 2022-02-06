@@ -141,6 +141,8 @@ from scipy import stats
 stats.binom.pmf(k, n, prob)
 ```
 
+The reason why "exactly" (i.e. Binomial) is very useful is because you can use it to derive other expressions. For example, say we want the probability that something is < 3. We can calculate P(0) + P(1) + P(2) because the events will be mutually exclusive! 
+
 ### General problem solving strategy 
 
 DRAW OUT EVENTS! Explicitly model what an event looks like for the given problem. Use combinatorical rules on sets to model complicated expressions. 
