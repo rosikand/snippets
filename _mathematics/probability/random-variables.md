@@ -13,7 +13,16 @@ title: Random variables
 
 ## Poisson 
 
+[Wikipedia](https://en.wikipedia.org/wiki/Poisson_distribution) has some good information. 
+
+
+> Definition: The Poisson distribution is a discrete probability distribution that expresses the probability of a given number of events occurring in a fixed interval of time or space if these events occur with a known constant mean rate and independently of the time since the last event ([Wikipedia](https://en.wikipedia.org/wiki/Poisson_distribution)). 
+
+
 Use Poisson when you are given a rate and care about the number of occurrences. For example, the number of requests in 5 minutes if the average request per minute is 3. Another use case is to approximate computationally expensive binomial random variables. 
+
+The key thing to know about the derivation of a Poisson is that it really is a large Binomial RV under the microscope. We get the probability $$p$$ via dividing the rate by the amount of time (make sure the units line up). Now how we get the number of trials if the unit is time? Well... discretize it! Divide the time into a very large number (approaching infinity) of rectangles (like what we do for integrals). That gives us our $$n$$. That is how Poisson is actually derived. See how this is really just a binomial with parameters $$p$$ and $$n$$? 
+
 
 ### Approximation of binomial 
 
@@ -37,5 +46,10 @@ $$
 
 ### Examples of Poissons 
 
-- Number of entries in large hash table (since independence doesn't quite need to be satisfied). 
+- Number of entries in large hash table (since independence doesn't quite need to be satisfied) 
 - Number of requests in a web server 
+- Number of hurdles jumped in 100 yards given 2.1 hurdles per 10 yards 
+  - Poisson can also be used for other interval types other than time. 
+- The number of meteorites greater than 1 meter diameter that strike Earth in a year
+- The number of patients arriving in an emergency room between 10 and 11 pm
+- The number of laser photons hitting a detector in a particular time interval
