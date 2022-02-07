@@ -56,7 +56,7 @@ $$
 
 
 ## Problem solving strategies 
-- Say you are given a question asking for a probability of something. Your first step should be to see if [core probability](core-probability.md) techniques work. If not, try to identify a random variable family whose distribution matches the form of the question. 
+- Say you are given a question asking for a probability of something. Your first step should be to see if [core probability](core-probability) techniques work. If not, try to identify a random variable family whose distribution matches the form of the question. 
 - Particularly, you want to define some random variable. Classify it via this method: let the random variable represent _the something_ we want the probability of (e.g. number of heads). Specifically, you should choose what your random variable represents based on two factors:
   - (1) the possible outcomes your random variable can take on should include _the something_ you want the probability of. 
   - (2) the problem aligns well with a particular distribution (if it isn't clear cut what the distribution is, you might need to do some manipulation. 
