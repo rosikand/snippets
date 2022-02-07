@@ -53,3 +53,11 @@ $$
 - The number of meteorites greater than 1 meter diameter that strike Earth in a year
 - The number of patients arriving in an emergency room between 10 and 11 pm
 - The number of laser photons hitting a detector in a particular time interval
+
+
+## Problem solving strategies 
+- Say you are given a question asking for a probability of something. Your first step should be to see if [core probability](core-probability.md) techniques work. If not, try to identify a random variable family whose distribution matches the form of the question. 
+- Particularly, you want to define some random variable. Classify it via this method: let the random variable represent _the something_ we want the probability of (e.g. number of heads). Specifically, you should choose what your random variable represents based on two factors:
+  - (1) the possible outcomes your random variable can take on should include _the something_ you want the probability of. 
+  - (2) the problem aligns well with a particular distribution (if it isn't clear cut what the distribution is, you might need to do some manipulation. 
+  - That is the key: choosing a specific random variable opens up a whole list of probabilities which you can pick and choose from as needed. 
