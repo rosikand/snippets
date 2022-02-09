@@ -107,11 +107,31 @@ $$
 ### "At least one" 
 Usually, this is the most useful case of DeMorgan's law. Just take the probability of "not all" do 1 minus this number. 
 
+$$
+P(X \geq 1) = 1-P(X=0)
+$$
+
 ### "At least $$n$$" 
 
 This is a generative process. Say we want to know the probability of at least $$2$$ things occurring when there are $$4$$ total objects. We simply take the sum of exactly $$2$$ things ocurring + prob of $$3$$ things occurring + prob of $$4$$ things occurring. 
 
-Useful to use binomial random variables here. 
+$$
+P(X \geq 2) = P(X=2) + P(X=3) + P(X=4)
+$$
+
+Useful to use binomial random variables here. Sometimes you aren't given an upper bound. So we use DeMorgan's: 
+
+$$
+P(X>n)=1-P(X \leq n) 
+$$
+
+
+### "At most $$n$$" 
+
+$$
+P(X \leq 2) = P(X=0) + P(X=1) + P(X=2)
+$$
+
 
 ### "Exactly $$k$$ out of $$n$$"
 
