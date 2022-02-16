@@ -67,10 +67,10 @@ It is also good to know how to enumerate all subarrays of any length:
 ```python
 arr = [1,2,3]
 master = []
-for i in range(len(arr) + 1):
-    for j in range(i):
-        master.append(arr[j:i])
-print(master) 
+for i in range(len(arr)):
+    for j in range(i, len(arr)):
+        master.append(arr[i:j+1])  # + 1 since non-inclusive end 
+print(master)
 ```
 
 
