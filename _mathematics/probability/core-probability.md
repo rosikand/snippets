@@ -68,6 +68,17 @@ $$
 
 ### Bayes' theorem 
 
+Bayes' theorem gives you the same answer is conditional probability would. We are still concerned with calculating $$P(A|B)$$ (just like in a traditional conditional probability). However, we aren't able to calculate the necessary $$P(A,B)$$ in the numerator of the conditional probability. However, if we know what $$P(B|A)$$ is, we can just use Bayes' theorem instead and therefore bypassing the need to figure out $$P(A,B)$$. 
+
+I think a good general strategy is to always try to use conditional probability of the form $$P(A|B)=\frac{P(A,B)}{P(B)}$$. And if you find that you are missing some information, try Bayes' theorem to get $$P(A|B) = \frac{\mathrm{P}(B \mid A) \cdot \mathrm{P}(A)}{\mathrm{P}(B)}$$. As you can see, it gives you the same thing and in fact Bayes' theorem is really derived from the chain rule (we are technically just calculating the "and' case in the original pure conditional numerator!). From course reader: 
+
+$$\mathrm{P}(F \mid E)=\frac{\mathrm{P}(F \text { and } E)}{\mathrm{P}(E)} \quad$$ Def of conditional probability
+$$=\frac{\mathrm{P}(E \mid F) \cdot \mathrm{P}(F)}{\mathrm{P}(E)} \quad$$ Substitute the chain rule for $$\mathrm{P}(F$ and $E)$$
+
+And of course, we can use the law of total probability to find $$P(E)$$ (the normalization constant in the denominator). 
+
+
+
 Useful when you know $$P(B|A)$$ but not $$P(A|B)$$. Answers how we "update" our beliefs on something given new information. 
 
 
