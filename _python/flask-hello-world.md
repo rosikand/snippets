@@ -15,3 +15,10 @@ app = Flask(__name__)
 def hello_world():
     return 'Hello, World!'
 ```
+Run locally: 
+
+```python
+export FLASK_APP=app.py
+export FLASK_DEBUGGING=1
+flask run 
+```
