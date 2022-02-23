@@ -1,10 +1,9 @@
-
 ---
 layout: default
 title: Loop progress bar (tqdm) 
 ---
 
-# Loop progress bar (tqdm) 
+# Loop progress bar (tqdm)  
 
 You can print out a progress bar while your loop is running (nice for machine learning training with loop)! 
 
