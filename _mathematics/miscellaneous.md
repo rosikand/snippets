@@ -8,5 +8,5 @@ exhibit: true
 
 Some various miscellaneous topics in mathematics (mostly just review). 
 
-- [Mathematical induction](miscellaneous/induction.md)
+- [Mathematical induction](miscellaneous/induction)
 
