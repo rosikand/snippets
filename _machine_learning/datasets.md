@@ -15,3 +15,4 @@ List of machine learning datasets and competitions.
 - http://www.miccai.org/special-interest-groups/challenges/miccai-registered-challenges/
 - https://competitions.codalab.org/competitions/
 - https://openaccess.thecvf.com/menu
+- https://nips.cc/Conferences/2021/DatasetsBenchmarks/AcceptedPapers
