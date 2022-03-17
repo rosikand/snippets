@@ -5,6 +5,16 @@ title: Some unix commands
 
 # Some unix commands
 
+### Run previous command 
+
+Instead of having to write out `python3 prog.py` every time, you can do 
+
+```
+ctrl + p
+```
+
+to type the previous command! 
+
 ### Download entire website and all its files
 
 ```bash
