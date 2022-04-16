@@ -2,6 +2,8 @@ theme: jekyll-theme-minimal
 baseurl: /snippets/ 
 url: http://rosikand.github.io
 collections:
+  computer_science:
+    output: true
   mathematics:
     output: true
   python:
@@ -11,4 +13,4 @@ collections:
   machine_learning:
     output: true
   data_structures_and_algorithms:
-    output: true
+    output: false
