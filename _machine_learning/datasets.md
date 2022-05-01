@@ -16,3 +16,4 @@ List of machine learning datasets and competitions.
 - https://competitions.codalab.org/competitions/
 - https://openaccess.thecvf.com/menu
 - https://nips.cc/Conferences/2021/DatasetsBenchmarks/AcceptedPapers
+- github.com/activeloopai/Hub
