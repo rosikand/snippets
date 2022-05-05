@@ -7,6 +7,7 @@ title: ML resources
 
 ## general 
 - deeplearning.ai
+- [Google ML crash course](https://developers.google.com/machine-learning/crash-course)
 
 
 ## specific 
