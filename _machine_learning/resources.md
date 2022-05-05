@@ -18,3 +18,7 @@ title: ML resources
 ## Blogs 
 - https://www.casualganpapers.com/
 - https://lilianweng.github.io/
+
+## Research 
+- https://www.confviews.com/
+- 
