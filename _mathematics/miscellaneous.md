@@ -9,6 +9,4 @@ exhibit: true
 Some various miscellaneous topics in mathematics (mostly just review). 
 
 - [Mathematical induction](miscellaneous/induction)
-- [Mathematical induct](miscellaneous/induct)
-
-
+ 
