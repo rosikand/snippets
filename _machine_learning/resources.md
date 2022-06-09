@@ -18,6 +18,7 @@ title: ML resources
 ## Blogs 
 - https://www.casualganpapers.com/
 - https://lilianweng.github.io/
+- https://www.assemblyai.com/blog
 
 ## Research 
 - https://www.confviews.com/
