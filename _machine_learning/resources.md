@@ -7,6 +7,7 @@ title: ML resources
 
 ## general 
 - deeplearning.ai
+- https://end-to-end-machine-learning.teachable.com/
 
 ## specific 
 - autograd 
