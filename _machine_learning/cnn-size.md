@@ -12,8 +12,8 @@ One of the tedious parts when working with constructing neural networks is figur
 and requires four hyperparameters (specified as args into the conv layer API function): 
     - $K$: Number of filters 
     - $F$: Size of the filters 
-    - $S$ stride 
-    - $P$ the amount of zero padding 
+    - $S$: stride 
+    - $P$: the amount of zero padding 
 
 and produces a volume of size $$W_{2} \times H_{2} \times D_{2}$$
 - $W2=(W1−F+2P)/S+1$
