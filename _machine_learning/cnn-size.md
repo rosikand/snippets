@@ -55,7 +55,7 @@ In general, there are two main layers of a neural network where an AF might be a
 
 Machine learning mastery has a nice diagram for deciding: 
 
-![image.png](attachment:image.png)
+![image](https://user-images.githubusercontent.com/57341225/174954356-ac83deb5-3138-4e6f-ac3b-b5108ff943b3.png)
 
 ## Common architecture pattern 
 
