@@ -17,8 +17,8 @@ and requires four hyperparameters (specified as args into the conv layer API fun
     - $P$: the amount of zero padding 
 
 and produces a volume of size $$W_{2} \times H_{2} \times D_{2}$$
-- $(W2=(W1−F+2P)/S)+1$
-- $(H2=(H1−F+2P)/S)+1$ (i.e. width and height are computed equally by symmetry) 
+- $W2=((W1−F+2P)/S)+1$
+- $H2=((H1−F+2P)/S)+1$ (i.e. width and height are computed equally by symmetry) 
 - $D2=K$ (i.e. number of filters used) 
 
 **Choosing hyperparameters**: 
