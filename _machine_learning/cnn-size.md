@@ -5,9 +5,10 @@ title: Convolutional neural network shape and sizing
 
 # Convolutional neural network shape and sizing 
 
-One of the tedious parts when working with constructing neural networks is figuring out the right shape and size given your inputs. This note summarizes this math as noted in the [CS231N notes](https://cs231n.github.io/convolutional-networks/). 
+One of the tedious parts when working with constructing neural networks is figuring out the right shape and size given your inputs. This note summarizes this math as noted in the [CS231N notes](https://cs231n.github.io/convolutional-networks/). The [wikipedia page](https://en.wikipedia.org/wiki/Convolutional_neural_network#Spatial_arrangement) also has some nice arithmetic. 
 
 ## Convolutional layer 
+Size-wise, we aim to preserve the dimensions of the input after passing it through a convolutional layer. 
 - Accepts a volume of size $$W_{1} \times H_{1} \times D_{1}$$ 
 and requires four hyperparameters (specified as args into the conv layer API function): 
     - $K$: Number of filters 
@@ -24,7 +25,7 @@ and produces a volume of size $$W_{2} \times H_{2} \times D_{2}$$
 General rule of thumb: $$
 F=3, S=1, P=1
 $$
-Also ensure that $P=(F-1) / 2$ to preserve input size.
+To *preserve input size*, ensure that $P=(F-1) / 2$. 
 
 ## Pooling layer 
 
