@@ -22,7 +22,8 @@ and produces a volume of size $$W_{2} \times H_{2} \times D_{2}$$
 - $D2=K$ (i.e. number of filters used) 
 
 **Choosing hyperparameters**: 
-General rule of thumb: $$
+General rule of thumb: 
+$$
 F=3, S=1, P=1
 $$
 To *preserve input size*, ensure that $P=(F-1) / 2$. 
