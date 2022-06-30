@@ -5,12 +5,12 @@ title: ML resources
 
 # Resources for machine learning 
 
-## general 
+## General 
 - deeplearning.ai
 - https://end-to-end-machine-learning.teachable.com/
 
-## specific 
-- autograd 
+## Specific 
+- https://martin-thoma.com/ml-glossary/
 
 ## Courses 
 - https://www.deeplearning.ai/program/machine-learning-specialization/
@@ -23,4 +23,3 @@ title: ML resources
 
 ## Research 
 - https://www.confviews.com/
-- 
