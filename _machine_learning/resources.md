@@ -11,6 +11,7 @@ title: ML resources
 
 ## Specific 
 - https://martin-thoma.com/ml-glossary/
+- https://uvadlc-notebooks.readthedocs.io/en/latest/index.html
 
 ## Courses 
 - https://www.deeplearning.ai/program/machine-learning-specialization/
