@@ -27,3 +27,11 @@ Useful packages/libraries:
 # credit: flax docs 
 params = jax.tree_map(lambda p, g: p - learning_rate * g, params, jax.grad(mse_loss)(params, x_samples, y_samples))
 ```
+
+
+## Cool functions 
+
+The following will be a reference of cool (or not so cool) functions in Jax. Sort of like a mini reference document. 
+
+- 
+
