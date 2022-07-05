@@ -21,6 +21,9 @@ title: ML resources
 - https://www.casualganpapers.com/
 - https://lilianweng.github.io/
 - https://www.assemblyai.com/blog
+- https://deepnotes.io/
+- https://sthalles.github.io/
+- https://notesonai.com/Notes+on+AI
 
 ## Research 
 - https://www.confviews.com/
