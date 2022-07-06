@@ -10,3 +10,5 @@ Questions I have about machine learning
 ### What is the difference between fine-tuning, transfer learning, and pre-training 
 
 (In the context of vision) 
+
+- See [here](https://cs231n.github.io/transfer-learning/). 
