@@ -62,6 +62,8 @@ for mini_batch in trainloader:
     print("Ground truths (label): ", sample_labels) 
 ```
 
+Why use `DataLoader`'s? It fetches a new data sample when iterating over it. This can have an advantage over just using a `DataSet` when you need to load in the data from a remote server such as Amazon s3. For example, in the data loader, you can specify the path to the current sample in an s3 bucket and have the class code structured such that it fetches the data point and returns it. 
+
 
 
 
