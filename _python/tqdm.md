@@ -15,3 +15,5 @@ for i in tqdm(range(10000)):
 ```
 
 <img width="636" alt="image" src="https://user-images.githubusercontent.com/57341225/155415734-2901601f-e6e1-4dea-ac47-766e0185380d.png">
+
+Note: sometimes, if you are in a notebook, the progress bar will print on a new line for every percentage which is incredibly cumbersome. Use `from tqdm import tqdm` if this occurs. 
