@@ -18,3 +18,9 @@ Lots of what you specify here is what is relevant to your run. Some common thing
 
 ```
 
+## Things to log 
+
+During training loop: 
+- Loss: 
+- Graphs? 
+
