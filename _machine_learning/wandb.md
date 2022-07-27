@@ -30,6 +30,14 @@ During training loop:
 - Graphs? 
 
 ## Misc. 
+### Artifacts 
+
+> "Conceptually, an artifact is simply a directory in which you can store whatever you want, be it images, HTML, code, audio, or raw binary data."
+
+Good for storing: 
+- Saving plots of test images 
+- Datasets and pickled files 
+- Model object files 
 
 For dataset and model saving, use [artifacts](https://docs.wandb.ai/guides/artifacts). 
 
