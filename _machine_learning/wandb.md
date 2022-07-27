@@ -35,6 +35,8 @@ During training loop:
 In training loop: 
 
 
+## I am confused about 
 
+- What `wandb.config` provides 
 
 
