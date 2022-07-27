@@ -29,6 +29,11 @@ During training loop:
 - Loss: 
 - Graphs? 
 
+## Misc. 
+
+For dataset and model saving, use [artifacts](https://docs.wandb.ai/guides/artifacts). 
+
+
 
 ## Full code changes 
 
