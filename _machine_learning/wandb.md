@@ -18,9 +18,23 @@ Lots of what you specify here is what is relevant to your run. Some common thing
 
 ```
 
+Some notes: 
+- `entity` is user or org to where your runs are sent. If you have multiple accounts logged in or are part of an org, you can specify which acc/org you want the runs to go to. 
+  - btw, login info is stored in `~/.netrc`. 
+
+
 ## Things to log 
 
 During training loop: 
 - Loss: 
 - Graphs? 
+
+
+## Full code changes 
+
+In training loop: 
+
+
+
+
 
