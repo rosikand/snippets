@@ -1,3 +1,9 @@
+---
+layout: default
+title: Albumentations with PyTorch for image data augmentation
+---
+
+
 # Albumentations with PyTorch for image data augmentation 
 
 ([reference](https://medium.com/mlearning-ai/albumentations-a-python-library-for-advanced-image-augmentation-strategies-752bff3a3da0))
@@ -35,7 +41,7 @@ ml_utils.plot_np_img(img, True)
 
 
     
-![png](output_4_0.png)
+![png](images/output_4_0.png)
     
 
 
@@ -47,7 +53,7 @@ ml_utils.plot_np_img(img2, True)
 
 
     
-![png](output_5_0.png)
+![png](images/output_5_0.png)
     
 
 
@@ -97,13 +103,13 @@ ml_utils.plot_np_img(t_img2, True)
 
 
     
-![png](output_12_0.png)
+![png](images/output_12_0.png)
     
 
 
 
     
-![png](output_12_1.png)
+![png](images/output_12_1.png)
     
 
 
@@ -160,7 +166,7 @@ print(torch_set[0][0].size())
 
 
     
-![png](output_16_1.png)
+![png](images/output_16_1.png)
     
 
 
@@ -169,7 +175,7 @@ print(torch_set[0][0].size())
 
 
     
-![png](output_16_3.png)
+![png](images/output_16_3.png)
     
 
 
@@ -230,7 +236,7 @@ for x, y in loader:
 
 
     
-![png](output_21_1.png)
+![png](images/output_21_1.png)
     
 
 
