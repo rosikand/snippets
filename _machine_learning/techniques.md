@@ -19,3 +19,15 @@ Image [source](https://www.youtube.com/watch?v=8AKqH6V9kjE).
 - [ML2021 week13 Domain Adaptation](https://www.youtube.com/watch?v=8AKqH6V9kjE) 
 - https://stacks.stanford.edu/file/druid:nv775dt3762/JoyHsuBachelorsThesis.pdf
 - https://github.com/zhaoxin94/awesome-domain-adaptation
+
+## Masked image modeling for self-supervised pre-training 
+
+Say you have a dataset consisting of many umlabeled samples but few labeled samples. A good idea would be to do some sort of pseudo-labeling process (semi-supervised learning). But this is really only feasible right now for simple tasks like classification. For dense tasks like detection or segmentation, it might be a good idea to pre-train the weights using the unlabeled parts of the data. But how so? Masked image modeling provides a method. 
+
+
+#### Good references 
+- https://github.com/huggingface/transformers/tree/main/examples/pytorch/image-pretraining
+- https://arxiv.org/pdf/2111.09886.pdf
+- https://arxiv.org/pdf/2111.06377.pdf
+
+
