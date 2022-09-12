@@ -24,14 +24,19 @@ Image [source](https://www.youtube.com/watch?v=8AKqH6V9kjE).
 
 Say you have a dataset consisting of many unlabeled samples but few labeled samples. A good idea would be to do some sort of pseudo-labeling process (semi-supervised learning). But this is really only feasible right now for simple tasks like classification. For dense tasks like detection or segmentation, it might be a good idea to pre-train the weights using the unlabeled parts of the data. But how so? Masked image modeling provides a method. 
 
-
-## Deep metric learning 
-
-Let's say that...
-
 #### Good references 
 - https://github.com/huggingface/transformers/tree/main/examples/pytorch/image-pretraining
 - https://arxiv.org/pdf/2111.09886.pdf
 - https://arxiv.org/pdf/2111.06377.pdf
 
+
+
+
+## Deep metric learning 
+
+Let's say that...
+
+**References**: 
+- https://kevinmusgrave.github.io/pytorch-metric-learning/
+- https://www.reddit.com/r/MachineLearning/comments/xc0tmt/comment/io2sdk1/?utm_source=share&utm_medium=web2x&context=3
 
