@@ -22,8 +22,12 @@ Image [source](https://www.youtube.com/watch?v=8AKqH6V9kjE).
 
 ## Masked image modeling for self-supervised pre-training 
 
-Say you have a dataset consisting of many umlabeled samples but few labeled samples. A good idea would be to do some sort of pseudo-labeling process (semi-supervised learning). But this is really only feasible right now for simple tasks like classification. For dense tasks like detection or segmentation, it might be a good idea to pre-train the weights using the unlabeled parts of the data. But how so? Masked image modeling provides a method. 
+Say you have a dataset consisting of many unlabeled samples but few labeled samples. A good idea would be to do some sort of pseudo-labeling process (semi-supervised learning). But this is really only feasible right now for simple tasks like classification. For dense tasks like detection or segmentation, it might be a good idea to pre-train the weights using the unlabeled parts of the data. But how so? Masked image modeling provides a method. 
 
+
+## Deep metric learning 
+
+Let's say that...
 
 #### Good references 
 - https://github.com/huggingface/transformers/tree/main/examples/pytorch/image-pretraining
