@@ -40,3 +40,13 @@ Let's say that...
 - https://kevinmusgrave.github.io/pytorch-metric-learning/
 - https://www.reddit.com/r/MachineLearning/comments/xc0tmt/comment/io2sdk1/?utm_source=share&utm_medium=web2x&context=3
 
+
+## Image classification using CLIP 
+
+Instead of traditionally classifying images using a black-box neural network, one new approach would be to leverage NLP annotations. This is common in clinical workflows where NLP annotations are provided naturally. Then, one can embed both the image and the text annotation into a high-dimensional space and use contrastive learning to predict positive/negative for the class. 
+
+This method is described in the paper "Expert-level detection of pathologies from unannotated chest X-ray images via self-supervised learning". 
+
+
+
+
