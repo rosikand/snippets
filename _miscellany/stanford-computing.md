@@ -71,3 +71,17 @@ Done!
 Pretty cool because you can submit some jobs and log out of your instance! You can view a history of your jobs via `sacct`. 
 
 
+### Using GPU's
+
+See the [FAQ](https://web.stanford.edu/group/farmshare/cgi-bin/wiki/index.php/FAQ#Why_can.27t_I_submit_jobs_to_the_gpu_partition.3F). 
+
+```
+sbatch --partition=gpu --qos=gpu --gres=gpu:<num gpus> --time <days-hours:minutes> run.sh
+```
+
+example: 
+
+```
+sbatch --partition=gpu --qos=gpu --gres=gpu:4 --time 1-23:58 run.sh
+```
+
